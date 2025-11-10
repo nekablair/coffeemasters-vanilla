@@ -10,6 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
+    <!-- defer means to allow html to parse while in parallel loading app.js, and once html is parsed completely, run app.js -->
+    <!-- type=module allows import/export of js modules so they are not globally available and not causing errors -->
+    <script src="app.js" defer type="module" ></script>
+
     <link rel="stylesheet" href="styles.css">
     <link rel="manifest" href="app.webmanifest">
     <link rel="apple-touch-icon" href="images/icons/icon.png">
